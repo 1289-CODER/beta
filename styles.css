@@ -1,7 +1,7 @@
 /* Estilos generales */
 body {
   margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'italic', Tahoma, Geneva, Verdana, sans-serif;
   background: #fffaf5;
   color: #4a2c2a;
 }
@@ -57,7 +57,7 @@ p {
 }
 
 body {
-  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-family: 'italic', cursive, sans-serif;
   background-color: #fffafc;
   color: #444;
   line-height: 1.6;
@@ -94,7 +94,7 @@ a:hover {
   box-shadow: 0 8px 25px rgba(220, 175, 200, 0.2);
   max-width: 1000px;
   margin: 3rem auto;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'italic', sans-serif;
   color: #cc3e6b;
   flex-wrap: wrap;
 }
@@ -126,7 +126,7 @@ a:hover {
   border-radius: 20px;
   max-width: 1000px;
   margin: 3rem auto;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'italic', sans-serif;
   color: #4b3c44;
   box-shadow: 0 8px 25px rgba(235, 183, 210, 0.15);
 }
