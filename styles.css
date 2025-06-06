@@ -1,0 +1,417 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #fffaf5;
+  color: #4a2c2a;
+}
+
+/* Encabezado principal */
+h1 {
+  text-align: center;
+  font-size: 3em;
+  color: #ee86a9; /* Marrón floral */
+  margin-top: 2rem;
+  text-shadow: 1px 1px 2px #ffe4e1;
+}
+
+/* Decoración floral en el fondo */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://cdn.pixabay.com/photo/2017/08/30/07/52/roses-2690299_960_720.png');
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 200px auto;
+  opacity: 0.1;
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* Contenedor opcional para el contenido */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #ffffffcc;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(247, 125, 206, 0.2);
+}
+
+/* Tipografía suave */
+p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  color: #424141;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: #fffafc;
+  color: #444;
+  line-height: 1.6;
+}
+
+a {
+  color: #d36c6c;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #f59eb2;
+}
+
+/* Marquesina */
+.marquesina {
+  background-color: #ffe4ec;
+  color: #8e2c4e;
+  padding: 8px;
+  font-weight: bold;
+  font-size: 14px;
+  border-bottom: 2px dashed #fbb6ce;
+}
+/*Quienes somos */
+#quienes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  background: #ffd6ef;
+  padding: 3rem 2rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(220, 175, 200, 0.2);
+  max-width: 1000px;
+  margin: 3rem auto;
+  font-family: 'Poppins', sans-serif;
+  color: #cc3e6b;
+  flex-wrap: wrap;
+}
+
+#quienes h2 {
+  width: 100%;
+  text-align: center;
+  font-size: 2.2rem;
+  color: #d85c8c;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+#quienes p {
+  flex: 1;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #5b4c53;
+  padding: 1rem;
+  background: #fff0f5;
+  border-radius: 14px;
+  box-shadow: 0 4px 15px rgba(214, 159, 200, 0.15);
+}
+
+/*Acerca de nosotros */
+#acerca {
+  background: #fae4f0;
+  padding: 3rem 2rem;
+  border-radius: 20px;
+  max-width: 1000px;
+  margin: 3rem auto;
+  font-family: 'Poppins', sans-serif;
+  color: #4b3c44;
+  box-shadow: 0 8px 25px rgba(235, 183, 210, 0.15);
+}
+
+#acerca h2 {
+  text-align: center;
+  color: #d95e96;
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+}
+
+#acerca h3 {
+  color: #ba4d7a;
+  font-size: 1.6rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#acerca p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  background: #fff0f8;
+  padding: 1rem 1.5rem;
+  border-left: 6px solid #f9b4d5;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 15px rgba(214, 159, 200, 0.15);
+}
+
+/* Header */
+header {
+  background-color: #ffd7e1;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 26px;
+  color: #b43757;
+  font-weight: bold;
+}
+
+nav a {
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+/* Secciones */
+section {
+  padding: 40px 20px;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #d65275;
+}
+
+h3 {
+  margin-top: 20px;
+  font-size: 22px;
+  color: #bf3d5d;
+}
+
+p {
+  margin: 10px 0;
+}
+
+/* Galerías y productos */
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.galeria-productos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.producto {
+  border: 2px solid #fcd2e0;
+  background-color: #fff0f5;
+  border-radius: 15px;
+  padding: 15px;
+  width: 250px;
+  text-align: center;
+  transition: transform 0.3s;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.producto:hover {
+  transform: scale(1.05);
+}
+
+.producto img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.producto button {
+  background-color: #ffb6c1;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 8px;
+  transition: background 0.3s ease;
+}
+
+.producto button:hover {
+  background-color: #ff8fa3;
+}
+
+.detalles {
+  background-color: #fff8fc;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px dashed #ffa6c1;
+}
+
+/* Viveros / Proveedores */
+/* Estilos generales para la sección */
+#proveedores {
+  background: #ffebf5; /* verde muy claro */
+  padding: 50px 20px;
+  font-style: italic;
+  color: #555; /* verde oscuro */
+}
+
+#proveedores .container {
+  max-width: 1100px;
+  margin: 0 auto;
+}s
+
+#proveedores h2 {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  color: #b8336a;
+  text-transform: uppercase;
+}
+
+/* Galería flexible */
+.galeria-vivero {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Tarjetas individuales */
+.imagen-vivero {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 320px;
+  flex: 1 1 280px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: default;
+}
+
+.imagen-vivero:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Imagen dentro de cada tarjeta */
+.imagen-vivero img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Texto dentro de la tarjeta */
+.imagen-vivero p {
+  padding: 0 15px 15px 15px;
+  margin: 0;
+  color: #555;
+  line-height: 1.4;
+  font-size: 1rem;
+}
+
+.imagen-vivero p:first-of-type {
+  margin-top: 15px;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #b8336a;
+  text-align: center;
+}
+
+
+
+/* Clientes */
+#clientes {
+  padding: 2.2rem;
+  background-color: #fff3f7; /* Fondo suave y cute */
+  text-align: center;
+}
+
+#clientes h2 {
+  font-size: 2.2rem;
+  color: #b8336a;
+  margin-bottom: 1.5rem;
+}
+
+.clientes-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.card {
+  background-color: white;
+  border-radius: 15px;
+  padding: 1.5rem;
+  width: 280px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border: 3px solid #ffc0cb;
+}
+
+.card h3 {
+  color: #b8336a;
+  margin: 0.5rem 0;
+}
+
+.card .opinion {
+  font-style: italic;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+
+/* Contacto */
+.redes a {
+  display: inline-block;
+  margin-right: 15px;
+  background-color: #ffd1e1;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-weight: bold;
+  color: #8e2c4e;
+  transition: background 0.3s ease;
+}
+
+.redes a:hover {
+  background-color: #ffc1da;
+}
+
+/* Footer */
+footer {
+  background-color: #ffeaf1;
+  text-align: center;
+  padding: 20px;
+  color: #a9445f;
+  font-weight: bold;
+  border-top: 2px dashed #fbcad7;
+  margin-top: 40px;
+}
+
